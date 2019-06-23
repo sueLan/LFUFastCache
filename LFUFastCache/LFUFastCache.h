@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
 //! Project version number for LFUFastCache.
 FOUNDATION_EXPORT double LFUFastCacheVersionNumber;
 
+@interface LFUFastCache : NSObject
+
+@property (nonatomic) NSUInteger capacity;
+
++ (instancetype)cache;
+
+- (id)objectForKey:(id)key;
+- (void)setObject:(id)val forKey:(id)key;
+
+- (void)clean;
+
+@end
 //! Project version string for LFUFastCache.
 FOUNDATION_EXPORT const unsigned char LFUFastCacheVersionString[];
 

@@ -10,6 +10,15 @@
 		450927A122BF1EE60042052C /* LFUFastCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509279722BF1EE60042052C /* LFUFastCache.framework */; };
 		450927A622BF1EE60042052C /* LFUFastCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 450927A522BF1EE60042052C /* LFUFastCacheTests.m */; };
 		450927A822BF1EE60042052C /* LFUFastCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4509279A22BF1EE60042052C /* LFUFastCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450927B222BF1F220042052C /* LFUFastCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 450927B122BF1F220042052C /* LFUFastCache.m */; };
+		450927B922BF1F710042052C /* DList.h in Headers */ = {isa = PBXBuildFile; fileRef = 450927B722BF1F710042052C /* DList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450927BA22BF1F710042052C /* DList.m in Sources */ = {isa = PBXBuildFile; fileRef = 450927B822BF1F710042052C /* DList.m */; };
+		450927C322BF30050042052C /* LFUNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 450927C122BF30050042052C /* LFUNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450927C422BF30050042052C /* LFUNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 450927C222BF30050042052C /* LFUNode.m */; };
+		450927C722BF61540042052C /* DLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 450927C522BF61540042052C /* DLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450927C822BF61540042052C /* DLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 450927C622BF61540042052C /* DLNode.m */; };
+		553C302717B7466AB6053B6F /* libPods-LFUFastCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB40B48A8D2B06EE6CF917D /* libPods-LFUFastCache.a */; };
+		EFA4046D384993529A2F9EC5 /* libPods-LFUFastCacheTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D498178DF92DA8559BA5AA /* libPods-LFUFastCacheTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +32,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009A8551CB8B57342F86AEDE /* Pods-LFUFastCacheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFUFastCacheTests.debug.xcconfig"; path = "Target Support Files/Pods-LFUFastCacheTests/Pods-LFUFastCacheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		03D498178DF92DA8559BA5AA /* libPods-LFUFastCacheTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFUFastCacheTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FF52FA56255B32CD1A087A /* Pods-LFUFastCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFUFastCache.debug.xcconfig"; path = "Target Support Files/Pods-LFUFastCache/Pods-LFUFastCache.debug.xcconfig"; sourceTree = "<group>"; };
+		4463BB65FA4ECF3C9C1E7801 /* Pods-LFUFastCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFUFastCache.release.xcconfig"; path = "Target Support Files/Pods-LFUFastCache/Pods-LFUFastCache.release.xcconfig"; sourceTree = "<group>"; };
 		4509279722BF1EE60042052C /* LFUFastCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFUFastCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4509279A22BF1EE60042052C /* LFUFastCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFUFastCache.h; sourceTree = "<group>"; };
 		4509279B22BF1EE60042052C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450927A022BF1EE60042052C /* LFUFastCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFUFastCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450927A522BF1EE60042052C /* LFUFastCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFUFastCacheTests.m; sourceTree = "<group>"; };
 		450927A722BF1EE60042052C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450927B122BF1F220042052C /* LFUFastCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFUFastCache.m; sourceTree = "<group>"; };
+		450927B722BF1F710042052C /* DList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DList.h; sourceTree = "<group>"; };
+		450927B822BF1F710042052C /* DList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DList.m; sourceTree = "<group>"; };
+		450927C122BF30050042052C /* LFUNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFUNode.h; sourceTree = "<group>"; };
+		450927C222BF30050042052C /* LFUNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFUNode.m; sourceTree = "<group>"; };
+		450927C522BF61540042052C /* DLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLNode.h; sourceTree = "<group>"; };
+		450927C622BF61540042052C /* DLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLNode.m; sourceTree = "<group>"; };
+		5FB40B48A8D2B06EE6CF917D /* libPods-LFUFastCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFUFastCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B476D374236888BA8CC67C /* Pods-LFUFastCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFUFastCacheTests.release.xcconfig"; path = "Target Support Files/Pods-LFUFastCacheTests/Pods-LFUFastCacheTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553C302717B7466AB6053B6F /* libPods-LFUFastCache.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +67,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				450927A122BF1EE60042052C /* LFUFastCache.framework in Frameworks */,
+				EFA4046D384993529A2F9EC5 /* libPods-LFUFastCacheTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF2F57DD3BCC1E5CECA2DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB40B48A8D2B06EE6CF917D /* libPods-LFUFastCache.a */,
+				03D498178DF92DA8559BA5AA /* libPods-LFUFastCacheTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4509278D22BF1EE60042052C = {
 			isa = PBXGroup;
 			children = (
 				4509279922BF1EE60042052C /* LFUFastCache */,
 				450927A422BF1EE60042052C /* LFUFastCacheTests */,
 				4509279822BF1EE60042052C /* Products */,
+				DBE39B3E9C0836B38DCC0BD9 /* Pods */,
+				1AF2F57DD3BCC1E5CECA2DAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +108,13 @@
 			children = (
 				4509279A22BF1EE60042052C /* LFUFastCache.h */,
 				4509279B22BF1EE60042052C /* Info.plist */,
+				450927B122BF1F220042052C /* LFUFastCache.m */,
+				450927C122BF30050042052C /* LFUNode.h */,
+				450927C222BF30050042052C /* LFUNode.m */,
+				450927B722BF1F710042052C /* DList.h */,
+				450927B822BF1F710042052C /* DList.m */,
+				450927C522BF61540042052C /* DLNode.h */,
+				450927C622BF61540042052C /* DLNode.m */,
 			);
 			path = LFUFastCache;
 			sourceTree = "<group>";
@@ -86,6 +128,17 @@
 			path = LFUFastCacheTests;
 			sourceTree = "<group>";
 		};
+		DBE39B3E9C0836B38DCC0BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05FF52FA56255B32CD1A087A /* Pods-LFUFastCache.debug.xcconfig */,
+				4463BB65FA4ECF3C9C1E7801 /* Pods-LFUFastCache.release.xcconfig */,
+				009A8551CB8B57342F86AEDE /* Pods-LFUFastCacheTests.debug.xcconfig */,
+				E7B476D374236888BA8CC67C /* Pods-LFUFastCacheTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +146,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450927B922BF1F710042052C /* DList.h in Headers */,
+				450927C322BF30050042052C /* LFUNode.h in Headers */,
 				450927A822BF1EE60042052C /* LFUFastCache.h in Headers */,
+				450927C722BF61540042052C /* DLNode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450927AB22BF1EE60042052C /* Build configuration list for PBXNativeTarget "LFUFastCache" */;
 			buildPhases = (
+				488E07FA18151F89869DEE25 /* [CP] Check Pods Manifest.lock */,
 				4509279222BF1EE60042052C /* Headers */,
 				4509279322BF1EE60042052C /* Sources */,
 				4509279422BF1EE60042052C /* Frameworks */,
@@ -122,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450927AE22BF1EE60042052C /* Build configuration list for PBXNativeTarget "LFUFastCacheTests" */;
 			buildPhases = (
+				DFE4632CA66E54C10BDA2CE5 /* [CP] Check Pods Manifest.lock */,
 				4509279C22BF1EE60042052C /* Sources */,
 				4509279D22BF1EE60042052C /* Frameworks */,
 				4509279E22BF1EE60042052C /* Resources */,
@@ -188,11 +246,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		488E07FA18151F89869DEE25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFUFastCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE4632CA66E54C10BDA2CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFUFastCacheTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4509279322BF1EE60042052C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450927BA22BF1F710042052C /* DList.m in Sources */,
+				450927C822BF61540042052C /* DLNode.m in Sources */,
+				450927C422BF30050042052C /* LFUNode.m in Sources */,
+				450927B222BF1F220042052C /* LFUFastCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +327,7 @@
 		450927A922BF1EE60042052C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -272,6 +381,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -335,6 +445,7 @@
 		};
 		450927AC22BF1EE60042052C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FF52FA56255B32CD1A087A /* Pods-LFUFastCache.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +470,7 @@
 		};
 		450927AD22BF1EE60042052C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4463BB65FA4ECF3C9C1E7801 /* Pods-LFUFastCache.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -383,7 +495,9 @@
 		};
 		450927AF22BF1EE60042052C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009A8551CB8B57342F86AEDE /* Pods-LFUFastCacheTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93885954WQ;
 				INFOPLIST_FILE = LFUFastCacheTests/Info.plist;
@@ -395,12 +509,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong.lan.LFUFastCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Debug;
 		};
 		450927B022BF1EE60042052C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B476D374236888BA8CC67C /* Pods-LFUFastCacheTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93885954WQ;
 				INFOPLIST_FILE = LFUFastCacheTests/Info.plist;
@@ -412,6 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong.lan.LFUFastCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
