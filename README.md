@@ -5,7 +5,7 @@ A iOS framework that implements an O(1) LFU (least frequently used) cache  algor
 The basic ideas comes from this [papar](http://dhruvbird.com/lfu.pdf). This algorithm has a runtime complexity of O(1) for each of the
 operations (insertion, lookup and deletion) . This is achieved by maintaining 2 linked lists; one on the access frequency and one for all 
 elements that have the same access frequency. A hash table is used to access elements by key.
-
+![](./data-structure.png)
 ## API
 
 ### Get method
