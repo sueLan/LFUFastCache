@@ -61,6 +61,7 @@
 
 - (void)clean {
     while (_head) {
+        [_head clean];
         _head.pre = nil;
         DLNode *next = _head.next;
         _head.next = nil;

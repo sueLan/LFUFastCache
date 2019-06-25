@@ -12,6 +12,8 @@
 @interface DLNode : NSObject
 @property (nonatomic, strong) DLNode *pre;
 @property (nonatomic, strong) DLNode *next;
+
+- (void)clean;
 @end
 
 

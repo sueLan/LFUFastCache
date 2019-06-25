@@ -19,6 +19,10 @@
     return self;
 }
 
+- (void)clean {
+    [_items clean];
+}
+
 @end
 
 @implementation LFUItem

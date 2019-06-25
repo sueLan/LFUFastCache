@@ -10,4 +10,7 @@
 
 @implementation DLNode
 
+- (void)clean {
+}
+
 @end

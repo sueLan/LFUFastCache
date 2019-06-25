@@ -6,7 +6,6 @@
 //  Copyright © 2019 RongLan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 //! Project version number for LFUFastCache.
 FOUNDATION_EXPORT double LFUFastCacheVersionNumber;
 
