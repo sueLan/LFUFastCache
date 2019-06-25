@@ -18,6 +18,7 @@ FOUNDATION_EXPORT double LFUFastCacheVersionNumber;
 - (id)objectForKey:(id)key;
 - (void)setObject:(id)val forKey:(id)key;
 
+// Must use this func to clean all cached objects before you release the cache object
 - (void)clean;
 
 @end
